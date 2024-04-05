@@ -21,7 +21,7 @@ void loop()
     {
       digitalWrite(8, 1);
       digitalWrite(11, 1);
-      delay(120);
+      delay(100);
     }
     else if (command == 98)
     {
