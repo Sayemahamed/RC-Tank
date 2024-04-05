@@ -4,6 +4,10 @@ void setup() {
   Serial.begin(9600);
 }
 void loop() {
-  while(Serial.available()>0)
-  Serial.println(Serial.read());
+  for(int i =0;i<2;i++){
+    if(Serial.available()>0){
+      Serial.println(Serial.read());
+    }
+  }
+  delay(100);
 }
