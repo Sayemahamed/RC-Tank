@@ -21,22 +21,25 @@ void loop()
     {
       digitalWrite(8, 1);
       digitalWrite(11, 1);
+      delay(120);
     }
     else if (command == 98)
     {
       digitalWrite(9, 1);
       digitalWrite(10, 1);
+      delay(90);
     }
     else if (command == 99)
     {
       digitalWrite(9, 1);
       digitalWrite(11, 1);
+      delay(40);
     }
     else if (command == 100)
     {
       digitalWrite(10, 1);
       digitalWrite(8, 1);
+      delay(40);
     }
   }
-  delay(100);
 }
